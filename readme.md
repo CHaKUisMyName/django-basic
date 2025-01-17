@@ -6,4 +6,5 @@
 * activate venv
 * pull this project branch main
 * pip install -r requirements.txt
+* migrate DB (python manage.py migrate)
 * run project (python manage.py runserver)
