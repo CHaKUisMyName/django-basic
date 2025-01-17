@@ -28,7 +28,7 @@ def form(request):
         eqm = request.POST.getlist("eqm[]")
         print(request.POST)
         print(eqm)
-        # person.save()
+        person.save()
         messages.success(request,"save success")
 
         return redirect("/")
